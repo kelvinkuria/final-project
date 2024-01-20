@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waifu Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <header>
+            <h1>Waifu Image Gallery</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <main id="content">
+            <div id="instructions">
+                <h2 id="instructionTitle">Instructions</h2>
+                <ul>
+                    <li>Click on the image to generate a new one.</li>
+                    <li>Use the "Like" button to show your appreciation.</li>
+                    <li>Comments and download options are available too!</li>
+                </ul>
+            </div>
+
+            <div id="photoContainer">
+                <img id="waifuImage" alt="Random Waifu Image">
+            </div>
+
+            <div id="likeButtons">
+                <button id="likeButton">Like</button>
+                <button id="resetLikesButton">Reset Likes</button>
+            </div>
+
+            <p id="likeCount">Likes: 0</p>
+
+            <div id="actions">
+                <button id="generateImageButton">Generate Different Image</button>
+                <button id="downloadImageButton">Download Image</button>
+            </div>
+
+            <div id="commentsSection">
+                <h2>Comments:</h2>
+                <button id="toggleCommentsButton">Toggle Comments</button>
+                <ul id="commentsList"></ul>
+                <textarea id="commentInput" placeholder="Add a comment..."></textarea>
+                <button id="commentButton">Add Comment</button>
+            </div>
+        </main>
+
+        <aside id="sidebar">
+            <h2>Categories</h2>
+            <select id="imageCategory">
+                <option value="waifu">Waifu</option>
+                <option value="neko">Neko</option>
+                <option value="shinobu">Shinobu</option>
+                <!-- Add other categories as needed -->
+            </select>
+        </aside>
+
+        <footer>
+            <p>&copy; 2024 Waifu Image Gallery. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
