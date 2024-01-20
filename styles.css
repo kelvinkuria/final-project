@@ -54,7 +54,7 @@ main {
 }
 
 #waifuImage {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -83,6 +83,7 @@ main {
 
 #likeCount {
     margin-top: 10px;
+    text-align: center; /* Center the like counter */
 }
 
 #actions {
@@ -115,6 +116,9 @@ footer {
 }
 
 /* Add more styles as needed */
+
+
+
 
 
 
