@@ -49,11 +49,12 @@ main {
 }
 
 #photoContainer {
-    position: relative;
     margin-top: 20px;
+    align-items: center;
 }
 
 #waifuImage {
+    align-items: center;
     max-width: 50%;
     height: auto;
     border: 1px solid #ddd;
